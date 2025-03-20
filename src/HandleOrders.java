@@ -1,6 +1,13 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class HandleOrders {
+    
+    private ArrayList<CustomPizza> customPizzas;
+
+    public HandleOrders() {
+        this.customPizzas = new ArrayList<>();
+    }
 
     private static final double PIZZA_BASE_PRICE = 10.0;
 
@@ -189,5 +196,11 @@ public class HandleOrders {
         
         return pizzaOrderSummary.toString();
     }
+
+    public void displayCustomPizzas() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'displayCustomPizzas'");
+    }
     
 }
+
